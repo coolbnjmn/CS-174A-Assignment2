@@ -477,8 +477,8 @@ void drawPlayer(mat4 model_trans, mat4 view_trans) {
     model_trans *= RotateX(45*sin(TIME));
     model_view = view_trans * model_trans;
     drawSphere();
-    model_trans *= Translate(1,0,0);
-    model_trans *= RotateX(45*sin(TIME));
+    model_trans *= Translate(1, 0, 0);
+    model_trans *= RotateY(45*sin(TIME));
     model_view = view_trans * model_trans;
     drawSphere();
     
