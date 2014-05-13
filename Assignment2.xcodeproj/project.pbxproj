@@ -7,8 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B21F65B9191DD55D00CBFDF9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B21F65B8191DD55D00CBFDF9 /* main.cpp */; };
 		B21F65BB191DD55D00CBFDF9 /* Assignment2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B21F65BA191DD55D00CBFDF9 /* Assignment2.1 */; };
+		B21F65DB191DD58000CBFDF9 /* anim.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B21F65C7191DD58000CBFDF9 /* anim.cpp */; };
+		B21F65DC191DD58000CBFDF9 /* Ball.cxx in Sources */ = {isa = PBXBuildFile; fileRef = B21F65C9191DD58000CBFDF9 /* Ball.cxx */; };
+		B21F65DD191DD58000CBFDF9 /* BallAux.cxx in Sources */ = {isa = PBXBuildFile; fileRef = B21F65CB191DD58000CBFDF9 /* BallAux.cxx */; };
+		B21F65DE191DD58000CBFDF9 /* BallMath.cxx in Sources */ = {isa = PBXBuildFile; fileRef = B21F65CD191DD58000CBFDF9 /* BallMath.cxx */; };
+		B21F65DF191DD58000CBFDF9 /* FrameSaver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B21F65D0191DD58000CBFDF9 /* FrameSaver.cpp */; };
+		B21F65E0191DD58000CBFDF9 /* InitShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B21F65D2191DD58000CBFDF9 /* InitShader.cpp */; };
+		B21F65E1191DD58000CBFDF9 /* Shapes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B21F65D4191DD58000CBFDF9 /* Shapes.cpp */; };
+		B21F65E2191DD58000CBFDF9 /* tga.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B21F65D6191DD58000CBFDF9 /* tga.cpp */; };
+		B21F65E3191DD58000CBFDF9 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B21F65D8191DD58000CBFDF9 /* Timer.cpp */; };
+		B21F65E5191DD59500CBFDF9 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21F65E4191DD59500CBFDF9 /* GLUT.framework */; };
+		B21F65E7191DD59B00CBFDF9 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21F65E6191DD59B00CBFDF9 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +36,33 @@
 
 /* Begin PBXFileReference section */
 		B21F65B5191DD55D00CBFDF9 /* Assignment2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment2; sourceTree = BUILT_PRODUCTS_DIR; };
-		B21F65B8191DD55D00CBFDF9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		B21F65BA191DD55D00CBFDF9 /* Assignment2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Assignment2.1; sourceTree = "<group>"; };
+		B21F65C2191DD58000CBFDF9 /* Angel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Angel.h; sourceTree = "<group>"; };
+		B21F65C3191DD58000CBFDF9 /* CheckError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckError.h; sourceTree = "<group>"; };
+		B21F65C4191DD58000CBFDF9 /* mat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mat.h; sourceTree = "<group>"; };
+		B21F65C5191DD58000CBFDF9 /* vec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vec.h; sourceTree = "<group>"; };
+		B21F65C6191DD58000CBFDF9 /* Angel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Angel.h; sourceTree = "<group>"; };
+		B21F65C7191DD58000CBFDF9 /* anim.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = anim.cpp; sourceTree = "<group>"; };
+		B21F65C9191DD58000CBFDF9 /* Ball.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ball.cxx; sourceTree = "<group>"; };
+		B21F65CA191DD58000CBFDF9 /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
+		B21F65CB191DD58000CBFDF9 /* BallAux.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BallAux.cxx; sourceTree = "<group>"; };
+		B21F65CC191DD58000CBFDF9 /* BallAux.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallAux.h; sourceTree = "<group>"; };
+		B21F65CD191DD58000CBFDF9 /* BallMath.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BallMath.cxx; sourceTree = "<group>"; };
+		B21F65CE191DD58000CBFDF9 /* BallMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallMath.h; sourceTree = "<group>"; };
+		B21F65CF191DD58000CBFDF9 /* CheckError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckError.h; sourceTree = "<group>"; };
+		B21F65D0191DD58000CBFDF9 /* FrameSaver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FrameSaver.cpp; sourceTree = "<group>"; };
+		B21F65D1191DD58000CBFDF9 /* FrameSaver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameSaver.h; sourceTree = "<group>"; };
+		B21F65D2191DD58000CBFDF9 /* InitShader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InitShader.cpp; sourceTree = "<group>"; };
+		B21F65D3191DD58000CBFDF9 /* mat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mat.h; sourceTree = "<group>"; };
+		B21F65D4191DD58000CBFDF9 /* Shapes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shapes.cpp; sourceTree = "<group>"; };
+		B21F65D5191DD58000CBFDF9 /* Shapes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shapes.h; sourceTree = "<group>"; };
+		B21F65D6191DD58000CBFDF9 /* tga.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tga.cpp; sourceTree = "<group>"; };
+		B21F65D7191DD58000CBFDF9 /* tga.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tga.h; sourceTree = "<group>"; };
+		B21F65D8191DD58000CBFDF9 /* Timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
+		B21F65D9191DD58000CBFDF9 /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		B21F65DA191DD58000CBFDF9 /* vec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vec.h; sourceTree = "<group>"; };
+		B21F65E4191DD59500CBFDF9 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		B21F65E6191DD59B00CBFDF9 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B21F65E7191DD59B00CBFDF9 /* OpenGL.framework in Frameworks */,
+				B21F65E5191DD59500CBFDF9 /* GLUT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +81,8 @@
 		B21F65AC191DD55D00CBFDF9 = {
 			isa = PBXGroup;
 			children = (
+				B21F65E6191DD59B00CBFDF9 /* OpenGL.framework */,
+				B21F65E4191DD59500CBFDF9 /* GLUT.framework */,
 				B21F65B7191DD55D00CBFDF9 /* Assignment2 */,
 				B21F65B6191DD55D00CBFDF9 /* Products */,
 			);
@@ -60,10 +99,41 @@
 		B21F65B7191DD55D00CBFDF9 /* Assignment2 */ = {
 			isa = PBXGroup;
 			children = (
-				B21F65B8191DD55D00CBFDF9 /* main.cpp */,
+				B21F65C1191DD58000CBFDF9 /* Angel */,
+				B21F65C6191DD58000CBFDF9 /* Angel.h */,
+				B21F65C7191DD58000CBFDF9 /* anim.cpp */,
+				B21F65C9191DD58000CBFDF9 /* Ball.cxx */,
+				B21F65CA191DD58000CBFDF9 /* Ball.h */,
+				B21F65CB191DD58000CBFDF9 /* BallAux.cxx */,
+				B21F65CC191DD58000CBFDF9 /* BallAux.h */,
+				B21F65CD191DD58000CBFDF9 /* BallMath.cxx */,
+				B21F65CE191DD58000CBFDF9 /* BallMath.h */,
+				B21F65CF191DD58000CBFDF9 /* CheckError.h */,
+				B21F65D0191DD58000CBFDF9 /* FrameSaver.cpp */,
+				B21F65D1191DD58000CBFDF9 /* FrameSaver.h */,
+				B21F65D2191DD58000CBFDF9 /* InitShader.cpp */,
+				B21F65D3191DD58000CBFDF9 /* mat.h */,
+				B21F65D4191DD58000CBFDF9 /* Shapes.cpp */,
+				B21F65D5191DD58000CBFDF9 /* Shapes.h */,
+				B21F65D6191DD58000CBFDF9 /* tga.cpp */,
+				B21F65D7191DD58000CBFDF9 /* tga.h */,
+				B21F65D8191DD58000CBFDF9 /* Timer.cpp */,
+				B21F65D9191DD58000CBFDF9 /* Timer.h */,
+				B21F65DA191DD58000CBFDF9 /* vec.h */,
 				B21F65BA191DD55D00CBFDF9 /* Assignment2.1 */,
 			);
 			path = Assignment2;
+			sourceTree = "<group>";
+		};
+		B21F65C1191DD58000CBFDF9 /* Angel */ = {
+			isa = PBXGroup;
+			children = (
+				B21F65C2191DD58000CBFDF9 /* Angel.h */,
+				B21F65C3191DD58000CBFDF9 /* CheckError.h */,
+				B21F65C4191DD58000CBFDF9 /* mat.h */,
+				B21F65C5191DD58000CBFDF9 /* vec.h */,
+			);
+			path = Angel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,7 +187,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B21F65B9191DD55D00CBFDF9 /* main.cpp in Sources */,
+				B21F65E0191DD58000CBFDF9 /* InitShader.cpp in Sources */,
+				B21F65DC191DD58000CBFDF9 /* Ball.cxx in Sources */,
+				B21F65DF191DD58000CBFDF9 /* FrameSaver.cpp in Sources */,
+				B21F65E3191DD58000CBFDF9 /* Timer.cpp in Sources */,
+				B21F65E2191DD58000CBFDF9 /* tga.cpp in Sources */,
+				B21F65DD191DD58000CBFDF9 /* BallAux.cxx in Sources */,
+				B21F65DB191DD58000CBFDF9 /* anim.cpp in Sources */,
+				B21F65DE191DD58000CBFDF9 /* BallMath.cxx in Sources */,
+				B21F65E1191DD58000CBFDF9 /* Shapes.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
